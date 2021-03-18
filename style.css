@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*, html, #root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body,
+button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.container {
+	padding: 25px 100px;
+}
+
+.nav {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2599C8;
+	color: #fff;
+}
+
+.nav .nav-brend {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav .nav-brend i {
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 100px;
+}
+
+.nav .nav-brend h1 {
+	font-size: 1.2rem;
+	padding-left: 10px;
+}
+
+.nav .nav-menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.nav .nav-menu ul li {
+	padding: 0 15px;
+}
+
+.banner {
+	padding-top: 70px;
+	position: relative;
+	background-image: url('./assets/background.jpg');
+	background-size: cover;
+	
+	width: 100%;
+	height: 100vh;
+	color:#fff;
+}
+
+.banner header h1 {
+	font-weight: 400;
+	font-size: 3.5rem;
+	width: 600px;
+}
+
+.banner p {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.5rem;
+}
+
+.banner .card-information {
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	width: 600px;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	padding: 20px;
+
+	background-color: #fff;
+	color:#000;
+}
+
+.banner .card-information .pre span {
+	font-size: 1.1rem;
+	color: #AFAFAF;
+}
+
+.banner .card-information .pre h2 {
+	margin-top: 10px;
+}
+
+.banner .card-information button {
+	border:none;
+	background-color: #259ACA;
+	color:#fff;
+	padding: 20px 50px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.banner img {
+	width: 500px;
+	position: absolute;
+	top: -120px;
+	right: 0px;
+}
+
+.informations {
+	background-color: #E0F3FA;
+	position: absolute;
+	width: 100%;
+	top: 700px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.informations .card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.informations .card .card-icon {
+	font-size: 2rem;
+	padding: 10px 13px;
+	border-radius: 15px;
+	margin-right: 20px;
+	box-shadow: 1px 4px 1px 1px rgba(0,0,0,.1); 
+	color: #fff;
+}
+
+.informations .card:nth-child(1) .card-icon {
+	background-color: #67D8F7; 
+}
+
+.informations .card:nth-child(2) .card-icon {
+	background-color: #7868E6; 
+}
+
+.informations .card:nth-child(3) .card-icon {
+	background-color: #00917C; 
+}
+
+.informations .card .card-text h3 {
+	font-size: 1.2rem; 
+}
+
+.informations .card .card-text span {
+	font-size: 1rem; 
+}
+
+.corpo {
+	margin-top: 200px;
+}
+
+.corpo header h5 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.corpo header h2 {
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 2.5rem;
+	/*width: 550px;*/
+	margin-bottom: 70px;
+}
+
+.content {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.content article {
+	display: flex;
+	flex-direction: column;
+}
+
+.content article button:nth-child(1) {
+	margin-top: 0;
+	background-color: #E8F5EE;
+	color:#153221;
+}
+
+.content article button:nth-child(2) {
+	background-color: #F6E8F1;
+	color:#331427;
+}
+
+.content article button:nth-child(3) {
+	background-color: #FBE3E1;
+	color:#4B1814;
+}
+
+.content article button:nth-child(4) {
+	background-color: #FEF7E0;
+	color:#463701;
+}
+
+.content article button:nth-child(5) {
+	background-color: #F8EDE4;
+	color:#331427;
+}
+
+.content article button:nth-child(1) i {
+	margin-left: 10px;
+	color: #153221;
+}
+
+.content article button {
+	width: 220px;
+	margin: 10px 0;
+	border:none;
+	border-radius: 5px;
+	padding: 20px 10px;
+	background-color: rgba(0,0,0,.2);
+	color: #000;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.content main {
+	padding: 0px 40px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.content main .cards {
+	width: 230px;
+	height: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 1px 40px 40px 1px rgba(0,0,0,.1);
+}
+
+.content main .cards img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.content main .cards .card-content {
+	padding: 25px;
+}
+
+.content main .cards .card-content .title{
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-size: 1rem;
+}
+
+.content main .cards .card-content span {
+	font-size: .8rem;
+}
+
+.content main .cards .card-content .stars {
+	margin-top: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content main .cards .card-content .stars p {
+	font-size: .8rem;
+}
+
+.content main .cards .card-content .stars div {
+	margin: 0px 10px 4px 10px;
+}
+
+.content main .cards .card-content .stars div i {
+	font-size: .8rem;
+	color: orange;
+}
+
+.content main .cards .card-content .stars p:nth-child(1) {
+	color: orange;
+	font-weight: 400;
+}
+
+.patrocinadores {
+	padding: 25px 200px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.patrocinadores header h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color:rgba(0,0,0,.7);
+}
+
+.patrocinadores .logos {
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+}
+
+.patrocinadores .logos li img {
+	width: 100px;
+}
+
+
