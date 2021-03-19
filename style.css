@@ -439,16 +439,29 @@ button {
 	}
 }
 	
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 500px) {
 	.container {
-		padding: 50px 10px;
+		padding: 50px 20px;
+	}
+
+	.nav {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	.informations {
-		top: 720px;
+		top: 640px;
 	}
 
-	.informations .card {
-		width: 100%;
+	.banner header h1 {
+		font-size: 2.5rem;
 	}
+
+	.banner p {
+		font-size: 1.2rem;
+	}
+
+	.nav .nav-brend h1 {
+		display: none;
+	}	
 }
