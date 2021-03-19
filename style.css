@@ -447,4 +447,8 @@ button {
 	.informations {
 		top: 720px;
 	}
+
+	.informations .card {
+		width: 100%;
+	}
 }
