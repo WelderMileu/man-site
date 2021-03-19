@@ -440,7 +440,11 @@ button {
 }
 	
 @media screen and (max-width: 495px) {
+	.container {
+		padding: 50px 10px;
+	}
+
 	.informations {
-		top: 700px;
+		top: 720px;
 	}
 }
